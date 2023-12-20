@@ -8,7 +8,7 @@ class StudentController {
       order: [['id', 'DESC'], [Photo, 'id', 'DESC']],
       include: {
         model: Photo,
-        attributes: ['id', 'originalname', 'filename'],
+        attributes: ['url', 'id', 'originalname', 'filename'],
       },
     });
     res.json(students);
@@ -29,7 +29,7 @@ class StudentController {
         order: [['id', 'DESC'], [Photo, 'id', 'DESC']],
         include: {
           model: Photo,
-          attributes: ['id', 'originalname', 'filename'],
+          attributes: ['url', 'id', 'originalname', 'filename'],
         },
       });
 
