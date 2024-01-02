@@ -16,7 +16,7 @@ import student from './routes/student';
 import photo from './routes/photo';
 
 const whiteList = [
-  'http://192.168.1.145',
+  process.env.APP_URL,
   'http://localhost:3000',
 ];
 

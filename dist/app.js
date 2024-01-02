@@ -16,7 +16,7 @@ var _student = require('./routes/student'); var _student2 = _interopRequireDefau
 var _photo = require('./routes/photo'); var _photo2 = _interopRequireDefault(_photo);
 
 const whiteList = [
-  'http://192.168.1.145',
+  process.env.APP_URL,
   'http://localhost:3000',
 ];
 
