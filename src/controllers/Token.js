@@ -7,7 +7,7 @@ class TokenController {
 
     if (!email || !password) {
       return res.status(401).json({
-        errors: ['E-mail and password must not be empty.'],
+        errors: ['Missing e-mail address and/or password.'],
       });
     }
 
