@@ -8,8 +8,8 @@ export default class Student extends Model {
         defaultValue: '',
         validate: {
           len: {
-            args: [3, 255],
-            msg: 'First name must contain between 3 and 255 characteres.',
+            args: [2, 255],
+            msg: 'First name must contain between 2 and 255 characteres.',
           },
         },
       },
@@ -18,8 +18,8 @@ export default class Student extends Model {
         defaultValue: '',
         validate: {
           len: {
-            args: [3, 255],
-            msg: 'Last name must contain between 3 and 255 characteres.',
+            args: [2, 255],
+            msg: 'Last name must contain between 2 and 255 characteres.',
           },
         },
       },
