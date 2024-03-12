@@ -42,6 +42,7 @@ NOTE: All configurations starting with `process.env.` come from `.env`.
 The username and password data from seed files are as followed:
 - email = admin@email.com
 - password = 123456
+
 You can obtain JWT token in route `/tokens` using the following JSON data:
 ```json
 {
